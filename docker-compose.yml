@@ -17,5 +17,5 @@ services:
     volumes:
       - ./svn/repos:/var/lib/svn
       - ./svn/log:/var/log/apache2
-      - ./svn/submin:/var/lib/submin
+        #- ./svn/submin:/var/lib/submin
 

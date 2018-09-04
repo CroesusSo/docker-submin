@@ -3,7 +3,6 @@ services:
   submin:
     image: croesus/submin:0.1
     container_name: submin
-    build: .
     restart: unless-stopped
     ports:
       - 8010:80

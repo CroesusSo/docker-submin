@@ -1,0 +1,48 @@
+[Mon Sep 03 12:56:15.310976 2018] [mpm_event:notice] [pid 82:tid 139734664296320] AH00489: Apache/2.4.10 (Debian) SVN/1.8.10 configured -- resuming normal operations
+[Mon Sep 03 12:56:15.311049 2018] [core:notice] [pid 82:tid 139734664296320] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 03 13:30:02.302138 2018] [mpm_event:notice] [pid 25:tid 140354535225216] AH00489: Apache/2.4.10 (Debian) SVN/1.8.10 configured -- resuming normal operations
+[Mon Sep 03 13:30:02.302237 2018] [core:notice] [pid 25:tid 140354535225216] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 03 13:40:50.438187 2018] [mpm_event:notice] [pid 72:tid 140447582386048] AH00489: Apache/2.4.10 (Debian) SVN/1.8.10 configured -- resuming normal operations
+[Mon Sep 03 13:40:50.438275 2018] [core:notice] [pid 72:tid 140447582386048] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 03 13:40:52.973309 2018] [core:warn] [pid 27:tid 140356987328384] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 03 13:40:52.974064 2018] [mpm_event:notice] [pid 27:tid 140356987328384] AH00489: Apache/2.4.10 (Debian) SVN/1.8.10 configured -- resuming normal operations
+[Mon Sep 03 13:40:52.974084 2018] [core:notice] [pid 27:tid 140356987328384] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 03 13:40:55.589289 2018] [cgid:error] [pid 29:tid 139852650596224] (98)Address already in use: AH01243: Couldn't bind unix domain socket /var/run/apache2/cgisock.27
+[Mon Sep 03 13:40:55.589466 2018] [core:warn] [pid 27:tid 139852650596224] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 03 13:40:57.308717 2018] [cgid:error] [pid 29:tid 139738729203584] (98)Address already in use: AH01243: Couldn't bind unix domain socket /var/run/apache2/cgisock.27
+[Mon Sep 03 13:40:57.308921 2018] [core:warn] [pid 27:tid 139738729203584] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 03 13:40:59.169719 2018] [cgid:error] [pid 28:tid 140018331727744] (98)Address already in use: AH01243: Couldn't bind unix domain socket /var/run/apache2/cgisock.27
+[Mon Sep 03 13:40:59.169898 2018] [core:warn] [pid 27:tid 140018331727744] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 03 13:40:59.170639 2018] [mpm_event:notice] [pid 27:tid 140018331727744] AH00489: Apache/2.4.10 (Debian) SVN/1.8.10 configured -- resuming normal operations
+[Mon Sep 03 13:40:59.170663 2018] [core:notice] [pid 27:tid 140018331727744] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 03 13:41:01.756077 2018] [cgid:error] [pid 29:tid 139922172675968] (98)Address already in use: AH01243: Couldn't bind unix domain socket /var/run/apache2/cgisock.27
+[Mon Sep 03 13:41:01.756225 2018] [core:warn] [pid 27:tid 139922172675968] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 03 13:41:06.050067 2018] [cgid:error] [pid 29:tid 140025839617920] (98)Address already in use: AH01243: Couldn't bind unix domain socket /var/run/apache2/cgisock.27
+[Mon Sep 03 13:41:06.050208 2018] [core:warn] [pid 27:tid 140025839617920] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 03 13:41:13.550949 2018] [cgid:error] [pid 29:tid 140585345816448] (98)Address already in use: AH01243: Couldn't bind unix domain socket /var/run/apache2/cgisock.27
+[Mon Sep 03 13:41:13.551116 2018] [core:warn] [pid 27:tid 140585345816448] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 03 13:41:27.588778 2018] [cgid:error] [pid 29:tid 140576220911488] (98)Address already in use: AH01243: Couldn't bind unix domain socket /var/run/apache2/cgisock.27
+[Mon Sep 03 13:41:27.588961 2018] [core:warn] [pid 27:tid 140576220911488] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 03 13:42:47.405975 2018] [mpm_event:notice] [pid 25:tid 140568486336384] AH00489: Apache/2.4.10 (Debian) SVN/1.8.10 configured -- resuming normal operations
+[Mon Sep 03 13:42:47.406088 2018] [core:notice] [pid 25:tid 140568486336384] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 03 13:42:50.056932 2018] [core:warn] [pid 27:tid 140170952112000] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 03 13:42:50.057619 2018] [mpm_event:notice] [pid 27:tid 140170952112000] AH00489: Apache/2.4.10 (Debian) SVN/1.8.10 configured -- resuming normal operations
+[Mon Sep 03 13:42:50.057635 2018] [core:notice] [pid 27:tid 140170952112000] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 03 13:42:52.556081 2018] [core:warn] [pid 27:tid 139639037380480] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 03 13:42:54.198497 2018] [core:warn] [pid 27:tid 139783907276672] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 03 13:42:54.199190 2018] [mpm_event:notice] [pid 27:tid 139783907276672] AH00489: Apache/2.4.10 (Debian) SVN/1.8.10 configured -- resuming normal operations
+[Mon Sep 03 13:42:54.199205 2018] [core:notice] [pid 27:tid 139783907276672] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 03 13:42:56.095045 2018] [core:warn] [pid 27:tid 139825947211648] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 03 13:42:56.095743 2018] [mpm_event:notice] [pid 27:tid 139825947211648] AH00489: Apache/2.4.10 (Debian) SVN/1.8.10 configured -- resuming normal operations
+[Mon Sep 03 13:42:56.095757 2018] [core:notice] [pid 27:tid 139825947211648] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 03 13:42:58.648989 2018] [core:warn] [pid 27:tid 140543278233472] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 03 13:43:43.250314 2018] [mpm_event:notice] [pid 25:tid 140316454188928] AH00489: Apache/2.4.10 (Debian) SVN/1.8.10 configured -- resuming normal operations
+[Mon Sep 03 13:43:43.250422 2018] [core:notice] [pid 25:tid 140316454188928] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 03 13:44:50.912852 2018] [mpm_event:notice] [pid 73:tid 139732550645632] AH00489: Apache/2.4.10 (Debian) SVN/1.8.10 configured -- resuming normal operations
+[Mon Sep 03 13:44:50.912938 2018] [core:notice] [pid 73:tid 139732550645632] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 03 13:50:42.820182 2018] [core:warn] [pid 50:tid 139893824337792] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 03 13:50:42.820976 2018] [mpm_event:notice] [pid 50:tid 139893824337792] AH00489: Apache/2.4.10 (Debian) SVN/1.8.10 configured -- resuming normal operations
+[Mon Sep 03 13:50:42.820996 2018] [core:notice] [pid 50:tid 139893824337792] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Sep 04 00:37:47.355509 2018] [core:warn] [pid 27:tid 140035411216256] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Sep 04 00:37:47.356767 2018] [mpm_event:notice] [pid 27:tid 140035411216256] AH00489: Apache/2.4.10 (Debian) SVN/1.8.10 configured -- resuming normal operations
+[Tue Sep 04 00:37:47.356795 2018] [core:notice] [pid 27:tid 140035411216256] AH00094: Command line: '/usr/sbin/apache2'

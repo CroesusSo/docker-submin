@@ -1,0 +1,22 @@
+version: '2'
+services:
+  submin:
+    image: croesus/submin:0.1
+    container_name: submin
+    build: .
+    restart: unless-stopped
+    ports:
+      - 8010:80
+        #- 3690:3690
+    environment:
+      - SUBMIN_EXTERNAL_PORT=8010
+      - SUBMIN_HOSTNAME=10.136.1.109
+      - SUBMIN_ADMIN_MAIL=croesus_so@163.com
+        #- SUBMIN_DATA_DIR=/var/lib/submin
+        #- SUBMIN_SMTP_HOSTNAME=localhost
+        #- SUBMIN_SMTP_PORT=25
+    volumes:
+      - ./svn/repos:/var/lib/svn
+      - ./svn/log:/var/log/apache2
+      - ./svn/submin:/var/lib/submin
+

@@ -32,4 +32,17 @@ SVN GUI Manager in Docker
       - ./svn/repos:/var/lib/svn
       - ./svn/log:/var/log/apache2
 
+### Run Service ###
+    > docker-compose up
+    find following line, open the line in your browser
+    access http://${hostname}:${external_port}/submin/password/admin/${key} to reset password
+
+### Set admin account name and password ###
+    Change your admin name and password.
+
+### Restart you service ### 
+    Press Crtl-C stop stop container  
+    Restart your service in container
+    > docker-composer start
+
 

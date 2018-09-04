@@ -55,6 +55,24 @@ fi
 if [ -e ${data_dir}/inited ]; then
     echo "Submin is already configured in ${data_dir}/conf"
 else 
+    submin2-admin /var/lib/submin config set http_vhost ${hostname}:${external_port}
+
+    if [ "$SUBMIN_SMTP_HOSTNAME" ]; then
+        submin2-admin /var/lib/submin config set smtp_hostname $SUBMIN_SMTP_HOSTNAME
+    fi
+
+    if [ "$SUBMIN_SMTP_PORT" ]; then
+        submin2-admin /var/lib/submin config set smtp_port "$SUBMIN_SMTP_PORT"
+    fi
+
+    if [ "$SUBMIN_SMTP_USER" ]; then
+        submin2-admin /var/lib/submin config set smtp_username $SUBMIN_SMTP_USER
+    fi
+
+    if [ "$SUBMIN_SMTP_PASS" ]; then
+        submin2-admin /var/lib/submin config set smtp_password "$SUBMIN_SMTP_PASS"
+    fi
+
     ln -s ${data_dir}/conf/apache-2.4-webui-cgi.conf /etc/apache2/conf-available/
     ln -s ${data_dir}/conf/apache-2.4-svn.conf /etc/apache2/conf-available/
 
@@ -66,6 +84,8 @@ else
         a2enmod cgid
     } >/dev/null 2>&1
     touch ${data_dir}/inited
+
+    echo "access http://${hostname}:${external_port}/submin for submin"
 fi
 
 service apache2 restart

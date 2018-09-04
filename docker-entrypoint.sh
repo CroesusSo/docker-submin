@@ -22,6 +22,15 @@ if [ ! -d ${data_dir}/conf ]; then
         submin2-admin /var/lib/submin config set smtp_port "$SUBMIN_SMTP_PORT"
     fi
 
+    if [ "$SUBMIN_SMTP_USER" ]; then
+        submin2-admin /var/lib/submin config set smtp_username $SUBMIN_SMTP_USER
+    fi
+
+    if [ "$SUBMIN_SMTP_PASS" ]; then
+        submin2-admin /var/lib/submin config set smtp_password "$SUBMIN_SMTP_PASS"
+    fi
+
+
     submin2-admin ${data_dir} apacheconf create all >/dev/null 2>&1 || true
 
     ln -s ${data_dir}/conf/apache-2.4-webui-cgi.conf /etc/apache2/conf-available/

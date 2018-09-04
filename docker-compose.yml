@@ -1,7 +1,7 @@
 version: '2'
 services:
   submin:
-    image: croesus/submin:lastest
+    image: croesus/submin:latest
     container_name: submin
     restart: unless-stopped
     ports:

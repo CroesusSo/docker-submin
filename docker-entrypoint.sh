@@ -34,12 +34,11 @@ if [ ! -d ${data_dir}/conf ]; then
         a2enmod rewrite
         a2enmod cgid
     } >/dev/null 2>&1
-    touch ${data_dir}/inited
 
     # disable git
     submin2-admin ${data_dir} config set vcs_plugins svn || true
 
-
+    touch ${data_dir}/inited
     key=`echo "SELECT key FROM password_reset;" | sqlite3 ${data_dir}/conf/submin.db`
     echo "access http://${hostname}:${external_port}/submin/password/admin/${key} to reset password"
 fi

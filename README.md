@@ -29,15 +29,18 @@ SVN GUI Manager in Docker
 
 ### Default volume ###
     volumes:
+      # svn repository
       - ./svn/repos:/var/lib/svn
-      - ./svn/log:/var/log/apache2
+      # submin configuration
+      - ./svn/submin:/var/lib/submin
 
 ### Run Service ###
     > docker-compose up
-    find following line, open the line in your browser
-    access http://${hostname}:${external_port}/submin/password/admin/${key} to reset password
+    login to your submin http://${hostname}:${external_port}/submin
+    admin / admin
 
 ### Set admin account name and password ###
+    Once login to submin remember change your Admin Account and change Password.
     Change your admin name and password.
 
 ### Restart you service ### 
